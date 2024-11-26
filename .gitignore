@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Food Honey Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Pure Food Honey Center</h1>
+            <p>Nature's Sweetest Gift, Purely Yours</p>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Harvesting the Sweetness of Nature for You!</h2>
+        <button onclick="window.location.href='#products'">Shop Now</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Pure Food Honey Center, we bring you the finest natural honey and organic foods directly from local farmers. Our mission is to deliver purity, quality, and sustainability to your table.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="honey.jpg" alt="Raw Honey">
+                <h3>Raw Honey</h3>
+                <p>100% pure, unfiltered, and natural.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="honeycomb.jpg" alt="Honeycomb">
+                <h3>Honeycomb</h3>
+                <p>Delicious honey straight from the hive.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="tea.jpg" alt="Herbal Tea">
+                <h3>Herbal Tea</h3>
+                <p>Natural blends for health and wellness.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>The Sweet Life Blog</h2>
+        <div class="blog-posts">
+            <article>
+                <h3>5 Amazing Health Benefits of Raw Honey</h3>
+                <p>Discover how honey can enhance your health and well-being.</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>DIY Honey Face Masks</h3>
+                <p>Glow naturally with these easy honey face mask recipes.</p>
+                <a href="#">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pure Food Honey Center | All Rights Reserved</p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
